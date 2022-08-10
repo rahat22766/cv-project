@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:#EEE;
+}
+
+.container{
+    max-width:1000px;
+    background-color:#b8eff1;
+    margin:0 auto;
+    padding:20px;
+}
+/*----------------
+    header Start
+-----------------*/
+.profile-image{
+    height:120px;
+    width:120px;
+    border-radius:50%;
+    border:10px solid white;
+    float:left;
+    
+}
+
+.header-bio{
+    float:left;
+    padding:30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#119e63;
+}
+
+.header-content{
+    float:right;
+    padding:30px;
+}
+
+.div-clean{
+    clear:both;
+}
+
+.header-content p{
+    padding:3px;
+}
+
+.header-content a{
+    text-decoration: none;
+    color:teal;
+    font-weight:bold;
+}
+
+.header-content a:hover{
+    text-decoration:underline;
+    color:tomato;
+}
+
+
+
+hr{
+    border:3px solid black;
+    border-bottom:none;
+    width:100%;
+    margin:20px auto;  
+}
+/*----------------
+    header end
+-----------------*/
+
+
+/*------------------------
+    Main/work/kye start
+----------------------*/
+
+#personal-section{
+border:none;
+}
+
+.content{
+    margin-bottom:30px;
+
+}
+
+.left-div{
+    width:30%;
+    float:left;
+}
+
+.right-div{
+    width:70%;
+    float:right;
+}
+
+.common-hr{
+    border:1px solid black;
+    border-bottom:none;
+    width:100%;
+    margin:20px auto;
+}
+
+.right-div h5{
+    margin-top:4px;
+}
+
+/*---------------------
+    Kye/work experience end
+--------------------*/
+
+
+/*----------------
+    Education start
+-----------------*/
+
+.eduction-left{
+    width:45%;
+    float:left;
+}
+
+.eduction-right{
+    width:45%;
+    float:right;
+}
+
+/*----------------
+    Education start
+-----------------*/
+
+
+/*--------------------
+    Footer start
+--------------------*/
+
+.botton-continar{
+    background:black;
+    text-align:center;
+    padding:10px;
+    padding-top: 30px;
+}
+
+.botton-continar a{
+    color:white;
+    text-decoration: none;
+    margin:25px;
+}
+
+.botton-continar p{
+    color:white;
+    margin-top:20px;
+    margin:20px;
+}
+/*--------------------
+    Footer End
+--------------------*/
